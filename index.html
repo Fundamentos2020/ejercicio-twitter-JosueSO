@@ -7,23 +7,39 @@
     <title>Twitter</title>
 </head>
 <body>
-    <div>
-        <h1>Local Storage</h1>
-        <div>
-            <div>
-                <form action="#">
-                    <label for="tweet">Tweet:</label>
-                    <textarea name="tweet"></textarea>
-                    <button>Agregar</button>
+    <div class="w-s-100 w-m-75 mx-auto">
+        <h1 class="text-center">Local Storage</h1>
+        <div class="row">
+            <div class="col-s-12 col-m-6 p-3">
+                <form action="#" class="row" id="form-tweet">
+                    <label for="tweet" class="col-12">Tweet:</label>
+                    <textarea name="tweet" class="col-12 my-2" rows="4" id="tweet-text"></textarea>
+                    <div class="text-right">
+                        <button class="py-2 px-3 button-primary">Agregar</button>
+                    </div>
                 </form>
             </div>
-            <div>
-                <h2>Mis Tweets</h2>
-                <div></div>
+            <div class="col-s-12 col-m-6 p-3">
+                <h2 class="text-center">Mis Tweets</h2>
+                <div id="tweets">
+                    <!-- <div class="row bt py-3">
+                        <div class="col-s-2"
+                            <img src="https://picsum.photos/200" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-s-9 px-2 tweet-item">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore quod aliquam suscipit quae quibusdam culpa fuga, odio enim velit neque facilis repudiandae minima debitis atque, tempora cupiditate nostrum a pariatur.
+                        </div>
+                        <div class="col-s-1 text-center">
+                            <button class="button-close">x</button>
+                        </div>
+                    </div> -->
+                </div>
             </div>
         </div>
+        <div class="bt p-2 text-center footer w-s-100 w-m-75">
+            241584 - Josué Sánchez Olvera
+        </div>
     </div>
-
     <script src="app.js"></script>
 </body>
 </html>

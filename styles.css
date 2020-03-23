@@ -64,6 +64,18 @@ body { margin: 0; }
 .p-3 { padding: 1em; }
 .p-4 { padding: 1.5em; }
 .p-5 { padding: 3em; }
+.px-0 { padding-left: 0; padding-right: 0; }
+.px-1 { padding-left: 0.25em; padding-right: 0.25em; }
+.px-2 { padding-left: 0.5em; padding-right: 0.5em; }
+.px-3 { padding-left: 1em; padding-right: 1em; }
+.px-4 { padding-left: 1.5em; padding-right: 1.5em; }
+.px-5 { padding-left: 3em; padding-right: 3em; }
+.py-0 { padding-top: 0; padding-bottom: 0; }
+.py-1 { padding-top: 0.25em; padding-bottom: 0.25em; }
+.py-2 { padding-top: 0.5em; padding-bottom: 0.5em; }
+.py-3 { padding-top: 1em; padding-bottom: 1em; }
+.py-4 { padding-top: 1.5em; padding-bottom: 1.5em; }
+.py-5 { padding-top: 3em; padding-bottom: 3em; }
 
 .m-0 { margin: 0; }
 .m-1 { margin: 0.25em; }
@@ -71,6 +83,12 @@ body { margin: 0; }
 .m-3 { margin: 1em; }
 .m-4 { margin: 1.5em; }
 .m-5 { margin: 3em; }
+.my-0 { margin-top: 0; margin-bottom: 0; }
+.my-1 { margin-top: 0.25em; margin-bottom: 0.25em; }
+.my-2 { margin-top: 0.5em; margin-bottom: 0.5em; }
+.my-3 { margin-top: 1em; margin-bottom: 1em; }
+.my-4 { margin-top: 1.5em; margin-bottom: 1.5em; }
+.my-5 { margin-top: 3em; margin-bottom: 3em; }
 .mx-auto { margin-left: auto; margin-right: auto; }
 
 /*OTROS*/
@@ -130,3 +148,34 @@ body { margin: 0; }
 
 [class*="col-"] { float: left; }
 [class*="flex-"] { display: flex; }
+
+.button-primary {
+    border: 1px darkred solid;
+    color: darkred;
+}
+
+.button-primary:hover {
+    border: none;
+    background-color: darkred;
+    color: white;
+}
+
+.button-close {
+    border: darkred solid 1px;
+    padding: 0.2em;
+    text-decoration: none;
+}
+
+.button-close:hover {
+    background-color: darkred;
+    color: white;
+    border: none;
+}
+
+.footer {
+    background-color: darkred;
+    color: white;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+}
